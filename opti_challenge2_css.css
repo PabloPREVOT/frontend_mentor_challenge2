@@ -1,0 +1,358 @@
+@font-face {
+    font-family: 'Bai Jamjuree Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('font/Bai Jamjuree Regular'), url('font/BaiJamjuree-Regular.woff') format('woff');
+    }
+
+body
+{
+	font-size: 18px;
+	font-family: 'Bai Jamjuree Regular', serif;
+	background: url(images/bg-header-desktop.png) no-repeat top;
+	background-size: 100%;
+	margin: 0;
+}
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 40%;
+	margin: 5% auto 0 auto;
+}
+
+p
+{
+	color: hsl(201, 11%, 66%);
+}
+
+.iOS
+{
+	background-color: hsl(171, 66%, 44%);
+	border-radius: 20px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.Mac
+{
+	background-color: hsl(233, 100%, 69%);
+	border-radius: 20px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.dl_link
+{
+	margin-top: 20px;
+}
+
+.dl_link a:hover
+{
+	opacity: 0.7;
+}
+
+#head_text_section1
+{
+	text-align: center;
+	width: 40%;
+	margin: 150px auto 100px auto;
+}
+
+#flex_section1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#text_section1
+{
+	margin: auto 5% auto 5%;
+}
+
+#flex_section2
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 150px auto 100px auto;
+}
+
+#head_text_section2
+{
+	margin: 0 auto 100px auto;
+	width: 40%;
+}
+
+#foot_text_section2
+{
+	margin-bottom: 100px;
+	width: 40%;
+}
+
+#flex_section3_1
+{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	margin: 0 10% 150px 10%;
+}
+
+#blacklists
+{
+	width: 28%;
+	margin-top: -8px;
+}
+
+#text
+{
+	width: 28%;
+}
+
+#preview
+{
+	width: 28%;
+}
+
+#logo
+{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 0 10% 150px 10%;
+}
+
+#foot_text_section3
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 40%;
+	margin: 5% auto 0 auto;
+}
+
+footer
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 150px;
+	background-color: hsl(188, 11%, 92%);
+}
+
+#first_part_footer
+{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 60%;
+}
+
+#logo_footer
+{
+	width: 50px;
+	height: 50px;
+}
+
+#footer_link
+{
+	display: flex;
+	width: 50%;
+	justify-content: space-evenly;
+}
+
+#footer_link a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#footer_link a:hover
+{
+	color: hsl(171, 66%, 44%);
+}
+
+#second_column_link
+{
+	margin: 0 5% 0 5%;
+}
+
+#social_link
+{
+	display: flex;
+	justify-content: space-between;
+	width: 10%;
+	margin-right: 10%;
+}
+
+#social_link svg
+{
+	fill: #4C545C;
+}
+
+#social_link svg:hover
+{
+	fill: hsl(171, 66%, 44%);
+}
+
+@media all and (max-width: 1000px)
+{
+	header
+	{
+		width: 60%;
+		margin-top: 20%;
+	}
+
+	.dl_link
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.iOS
+	{
+		margin-bottom: 20px;
+	}
+
+	#flex_section1
+	{
+		flex-direction: column;
+	}
+
+	#head_text_section1
+	{
+		width: 80%;
+	}
+
+	#div_first_image
+	{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	#first_image
+	{
+		width: 80%;
+	}
+
+	#text_section1
+	{
+		margin-top: 100px;
+	}
+
+	#text_section1 h3
+	{
+		text-align: center;
+	}
+
+	#text_section1 p
+	{
+		text-align: center;
+	}
+
+	#head_text_section2
+	{
+		width: 80%;
+	}
+
+	#div_second_image
+	{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	#second_image
+	{
+		width: 80%;
+	}
+
+	#foot_text_section3
+	{
+		width: 60%;
+	}
+
+	footer
+	{
+		flex-direction: column;
+		height: 450px;
+		justify-content: space-evenly;
+	}
+
+	#first_part_footer
+	{
+		flex-direction: column;
+	}
+
+	#logo_footer
+	{
+		margin-top: 10px;
+	}
+
+	#footer_link
+	{
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		text-align: center;
+	}
+
+	#social_link
+	{
+		margin: 0;
+		width: 30%;
+	}
+}
+
+@media all and (max-width: 1100px)
+{
+	#logo
+	{
+		flex-direction: column;
+		justify-content: space-between;
+		height: 500px;
+	}
+
+		#flex_section3_1
+	{
+		flex-direction: column;
+		align-items: center;
+		height: 800px;
+	}
+
+	#blacklists
+	{
+		width: 80%;
+	}
+
+	#text
+	{
+		width: 80%;
+	}
+
+	#preview
+	{
+		width: 80%;
+	}
+}
+
+@media all and (max-width: 480px)
+{
+	body
+	{
+		background: url(images/bg-header-mobile.png) no-repeat top;
+		background-size: 100%;
+	}
+}	
